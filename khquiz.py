@@ -2,23 +2,16 @@
 
 import random
 from string import ascii_lowercase
+import pathlib
+
+try:
+    import tomllib
+except ModuleNotFoundError:
+    import tomli as tomllib
 
 NUM_QUESTIONS_PER_QUIZ = 5
-QUESTIONS = {
-    "Sora's original beta design was based off of what character": [
-        "Mickey Mouse",
-        "Cloud Strife",
-        "Oswald the Lucky Rabbit",
-        "Donald Duck",
-    ],
-    "What is the name of Kairi's nobody": ["Namine", "Kairix", "Larxene", "Krixia"],
-    "Which character has had three different voice actors": [
-        "Master Xehanort",
-        "Riku",
-        "Marluxia",
-        "Tron",
-    ],
-}
+QUESTIONS_PATH = pathlib.Path(__file__).parent / "questions.toml"
+QUESTIONS = tomllib.loads(QUESTIONS_PATH.read_text())
 
 
 def run_quiz():
