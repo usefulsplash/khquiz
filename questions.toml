@@ -1,61 +1,125 @@
 # questions.toml
 
 [[questions]]
-question = "Sora's original KH1 design was based off of which Disney character"
+question = "Sora's original KHI design was based off of which Disney character"
 answers = ["Mickey Mouse"]
 alternatives = ["Cloud Strife", "Oswald the Lucky Rabbit", "Donald Duck"]
 hint = "Who's the leader of the club that's made for you and me?"
+explanation = """
+    Sora's original was made to mimic the appearance of classic Mickey Mouse, 
+    with the red jumpsuit and the huge yellow shoes that would become a staple 
+    and also a meme within the KH community.
+"""
 
 [[questions]]
 question = "What is the name of Kairi's nobody"
 answers = ["Namine"]
 alternatives = ["Kairix", "Marluxia", "Larxene"]
 hint = "X is not a letter Kairi is known for."
+explanation = """
+    Namine was born when Sora released his heart with Ansem's keyblade No Heart 
+    in order to return Kairi's heart to her body. This rendered Namine as a Nobody 
+    born from Kairi's heart and Sora's body and soul. Kairi's body can't become a 
+    Nobody since she has no darkness (as a Princess of Heart).
+"""
 
 [[questions]]
 question = "Which KH-original character has had three different voice actors"
 answers = ["Master Xehanort"]
 alternatives = ["Luxord", "Xigbar", "Master Ava"]
 hint = "This character LOVES the letter X."
+explanation = """
+    Master Xehanort was originally voiced by legendary actor Leonard Nimoy, 
+    the original actor for Spock in Star Trek. Following his death in 2015, 
+    Rutger Hauer came in to replace him for KHIII before his own death in 2019, 
+    coming to present day with Back to the Future actor Christopher Lloyd taking 
+    the role for KHIII Re:Mind.
+"""
 
 [[questions]]
 question = "Not including the remixes and rereleases, how many Kingdom Hearts games are there in the series so far"
 answers = ["13"]
 alternatives = ["15", "7", "3"]
-hint = "It's almost like it was intentionally this number leading up to KH4..."
+hint = "It's almost like it was intentionally this number leading up to KHIV..."
+explanation = """
+    The games in release order are as follows: Kingdom Hearts, Chain of Memories, 
+    Kingdom Hearts 2, Coded, 358/2 Days, Birth by Sleep, Dream Drop Distance, X(chi), 
+    (Unchained/Union)X, 2.8 Final Chapter Prologue, Kingdom Hearts III, Dark Road, 
+    and Melody of Memory. The next two games announced are Missing-Link and the holy 
+    grail: Kingdom Hearts IV.
+"""
 
 [[questions]]
 question = "Which two keyblades does Roxas wield when dual-wielding"
 answers = ["Oathkeeper", "Oblivion"]
 alternatives = ["Kingdom Key", "Destiny's Embrace"]
 hint = "Oh, yOu dOn't knOw? The answers are right in frOnt Of yOu!" 
+explanation = """
+    Both Oathkeeper and Oblivion are symbolic of Sora's memories of Kairi and Riku, 
+    respectively. As Sora's nobody, Roxas has access to these powerful keyblades 
+    because of Sora's strong bonds with Riku and Kairi. Additionally, it can be 
+    argued that these keyblades also fit thematically with Roxas' own bond with Xion, 
+    with Oathkeeper symbolizing his promise to stop Xemnas, and Oblivion symbolizing 
+    the memory of Xion fading from anyone who knew her.
+"""
 
 [[questions]]
 question = "Which of the following characters is not a Princess of Heart"
 answers = ["Master Aqua"]
 alternatives = ["Kairi", "Alice", "Elsa"]
 hint = "Well she's a princess in my heart, but she didn't pass the Mark of Mastery for nothing."
+explanation = """
+    Aqua is one of the first characters we see pass the Mark of Mastery in BBS, with 
+    her test consisting of defeating some balls of light. This is comically easier than 
+    the trials Sora and Riku had to go through for their own Mark of Mastery, and yet 
+    Terra failed that very same test.
+"""
 
 [[questions]]
 question = "What is the name of the meeting room of Organization 13"
 answers = ["Where Nothing Gathers"]
 alternatives = ["Castle Oblivion", "The Chamber of Repose", "Atlantica"]
 hint = "The true nobodies gather here."
+explanation = """
+    Also known as the Round Room, the thrones for each member are put at a certain 
+    height based on their power or authority within the Organization, with Xemnas 
+    (and later Xehanort) holding the highest seat. As the unofficial fourteenth 
+    member of the Organization, Xion has no seat, as she was only a failsafe should 
+    Roxas turn.
+"""
 
 [[questions]]
 question = "Which of these worlds appear in all three mainline KH games"
 answers = ["100 Acre Wood"]
 alternatives = ["Atlantica", "Deep Jungle", "Space Paranoids"]
 hint = "Oh bother, another set of minigames?"
+explanation = """
+    The 100 Acre Wood is the only world in the entire series uncorrupted by Heartless, 
+    and thus there's no need for the "Attack" command is Sora's command menu.  It is 
+    instead replaced with "Hit" to keep it kid-friendly while Pooh goes through a 
+    nightmarish existential crisis in the events of KHII. :)
+"""
 
 [[questions]]
 question = "Which of the Lesser Nobodies are controlled by Luxord"
 answers = ["Gamblers"]
 alternatives = ["Berserkers", "Reapers", "Ninja"]
 hint = "Pick a card, any card!"
+explanation = """
+    Of the fourteen members in Organization XIII, ten members have Lesser Nobodies 
+    that they alone can control, each based off of original Final Fantasy job classes, 
+    such as Dragoons or Samurai. The four members that currently do not have Lesser 
+    Nobodies at their command are Vexen, Lexaeus, Zexion, and Xion.
+"""
 
 [[questions]]
 question = "Which of the voice actors for KH has a very public foot fetish..."
 answers = ["Jesse McCartney"]
 alternatives = ["Haley Joel Osment", "David Gallagher", "Alyson Stoner"]
 hint = "WHY DON'T YOU TELL THAT 'I'M LEAVIN', AND NEVER COMIN' BACK AGAIN'."
+explanation = """
+    On March 1, 2014, noted singer-songwriter-actor Jesse McCartney, voice of beloved 
+    characters such as Nightwing, Theodore of Alvin and the Chipmunks fame, and of 
+    course Roxas, tweeted quote: 'Foot Fetish Friday....@EvaLongoria, that woman's 
+    feet are sexy!' in front of God and the world in public of his own volition.
+"""
