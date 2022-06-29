@@ -4,48 +4,58 @@
 question = "Sora's original KH1 design was based off of which Disney character"
 answers = ["Mickey Mouse"]
 alternatives = ["Cloud Strife", "Oswald the Lucky Rabbit", "Donald Duck"]
+hint = "Who's the leader of the club that's made for you and me?"
 
 [[questions]]
 question = "What is the name of Kairi's nobody"
 answers = ["Namine"]
 alternatives = ["Kairix", "Marluxia", "Larxene"]
+hint = "X is not a letter Kairi is known for."
 
 [[questions]]
 question = "Which KH-original character has had three different voice actors"
 answers = ["Master Xehanort"]
 alternatives = ["Luxord", "Xigbar", "Master Ava"]
+hint = "This character LOVES the letter X."
 
 [[questions]]
 question = "Not including the remixes and rereleases, how many Kingdom Hearts games are there in the series so far"
 answers = ["13"]
 alternatives = ["15", "7", "3"]
+hint = "It's almost like it was intentionally this number leading up to KH4..."
 
 [[questions]]
 question = "Which two keyblades does Roxas wield when dual-wielding"
 answers = ["Oathkeeper", "Oblivion"]
 alternatives = ["Kingdom Key", "Destiny's Embrace"]
+hint = "Oh, yOu dOn't knOw? The answers are right in frOnt Of yOu!" 
 
 [[questions]]
 question = "Which of the following characters is not a Princess of Heart"
 answers = ["Master Aqua"]
 alternatives = ["Kairi", "Alice", "Elsa"]
+hint = "Well she's a princess in my heart, but she didn't pass the Mark of Mastery for nothing."
 
 [[questions]]
 question = "What is the name of the meeting room of Organization 13"
 answers = ["Where Nothing Gathers"]
 alternatives = ["Castle Oblivion", "The Chamber of Repose", "Atlantica"]
+hint = "The true nobodies gather here."
 
 [[questions]]
 question = "Which of these worlds appear in all three mainline KH games"
 answers = ["100 Acre Wood"]
 alternatives = ["Atlantica", "Deep Jungle", "Space Paranoids"]
+hint = "Oh bother, another set of minigames?"
 
 [[questions]]
 question = "Which of the Lesser Nobodies are controlled by Luxord"
 answers = ["Gamblers"]
 alternatives = ["Berserkers", "Reapers", "Ninja"]
+hint = "Pick a card, any card!"
 
 [[questions]]
 question = "Which of the voice actors for KH has a very public foot fetish..."
 answers = ["Jesse McCartney"]
 alternatives = ["Haley Joel Osment", "David Gallagher", "Alyson Stoner"]
+hint = "WHY DON'T YOU TELL THAT 'I'M LEAVIN', AND NEVER COMIN' BACK AGAIN'."
