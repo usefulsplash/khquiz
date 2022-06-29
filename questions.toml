@@ -1,23 +1,51 @@
 # questions.toml
 
-"Sora's original KH1 design was based off of what character" = [
-    "Mickey Mouse",
-    "Cloud Strife",
-    "Oswald the Lucky Rabbit",
-    "Donald Duck",
-]
+[[questions]]
+question = "Sora's original KH1 design was based off of which Disney character"
+answers = ["Mickey Mouse"]
+alternatives = ["Cloud Strife", "Oswald the Lucky Rabbit", "Donald Duck"]
 
-"What is the name of Kairi's nobody" = [
-    "Namine",
-    "Kairix",
-    "Marluxia",
-    "Larxene",
-]
+[[questions]]
+question = "What is the name of Kairi's nobody"
+answers = ["Namine"]
+alternatives = ["Kairix", "Marluxia", "Larxene"]
 
-"Which KH-original character has had three different voice actors" = [
-    "Master Xehanort",
-    "Luxord",
-    "Xigbar",
-    "Master Ava",
-]
+[[questions]]
+question = "Which KH-original character has had three different voice actors"
+answers = ["Master Xehanort"]
+alternatives = ["Luxord", "Xigbar", "Master Ava"]
 
+[[questions]]
+question = "Not including the remixes and rereleases, how many Kingdom Hearts games are there in the series so far"
+answers = ["13"]
+alternatives = ["15", "7", "3"]
+
+[[questions]]
+question = "Which two keyblades does Roxas wield when dual-wielding"
+answers = ["Oathkeeper", "Oblivion"]
+alternatives = ["Kingdom Key", "Destiny's Embrace"]
+
+[[questions]]
+question = "Which of the following characters is not a Princess of Heart"
+answers = ["Master Aqua"]
+alternatives = ["Kairi", "Alice", "Elsa"]
+
+[[questions]]
+question = "What is the name of the meeting room of Organization 13"
+answers = ["Where Nothing Gathers"]
+alternatives = ["Castle Oblivion", "The Chamber of Repose", "Atlantica"]
+
+[[questions]]
+question = "Which of these worlds appear in all three mainline KH games"
+answers = ["100 Acre Wood"]
+alternatives = ["Atlantica", "Deep Jungle", "Space Paranoids"]
+
+[[questions]]
+question = "Which of the Lesser Nobodies are controlled by Luxord"
+answers = ["Gamblers"]
+alternatives = ["Berserkers", "Reapers", "Ninja"]
+
+[[questions]]
+question = "Which of the voice actors for KH has a very public foot fetish..."
+answers = ["Jesse McCartney"]
+alternatives = ["Haley Joel Osment", "David Gallagher", "Alyson Stoner"]
