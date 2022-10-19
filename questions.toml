@@ -123,3 +123,12 @@ explanation = """
     course Roxas, tweeted quote: 'Foot Fetish Friday....@EvaLongoria, that woman's 
     feet are sexy!' in front of God and the world in public of his own volition.
 """
+
+[[questions]]
+question = "BONUS: Who is my favorite character in all of Kingdom Hearts?"
+answers = "["Roxas"]
+alternatives = ["Sora", "Riku", "Kairi"]
+hint = "He's the trueeeeee nobody."
+explanation = """
+    Self explanatory.
+"""
