@@ -1,5 +1,7 @@
 # khquiz.py
 
+import re
+import sys
 import random
 from string import ascii_lowercase
 import pathlib
@@ -15,11 +17,16 @@ QUESTIONS_PATH = pathlib.Path(__file__).parent / "questions.toml"
 
 def run_quiz():
     questions = prep_questions(QUESTIONS_PATH, num_questions=NUM_QUESTIONS_PER_QUIZ)
-
+    hardmode = 0
+    if sys.argv[1] == "--hardmode":
+        hardmode = 1
     num_correct = 0
     for num, question in enumerate(questions, start=1):
         print(f"\nQuestion {num}:")
-        num_correct += ask_question(question)
+        if hardmode:
+            num_correct += ask_hardmode(question)
+        else:
+            num_correct += ask_question(question)
 
     print(f"\nYou got {num_correct} correct out of {num} questions")
 
@@ -51,7 +58,29 @@ def ask_question(question):
         is_or_are = " is" if len(correct_answers) == 1 else "s are"
         print("\n- ".join([f"No, the answer{is_or_are}:"] + correct_answers))
 
-    return 1 if correct else 0
+    return correct
+
+# in hardmode there is no multiple choice prompt
+def ask_hardmode(question):
+    correct_answer = question["answers"]
+ 
+    print(question["question"] + "?")
+    answer = input(f"\nYour answer: ")
+
+    if(len(correct_answer) > 1):   
+        answer = re.split(' |& |, | and', answer)
+    else: 
+        answer = [answer] # convert answer from str to list with one item
+
+    if answer == correct_answer:
+        print("Correct!")
+        if "explanation" in question:
+            print(f"\nEXPLANATION:\n{question['explanation']}")
+        return True
+    else:
+        is_or_are = " is" if len(correct_answer) == 1 else "s are"
+        print("\n- ".join([f"No, the answer{is_or_are}:"] + correct_answer))
+    return False
 
 
 # accepts question text and its choices, labels them, then returns user's answer
