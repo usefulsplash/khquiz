@@ -126,7 +126,7 @@ explanation = """
 
 [[questions]]
 question = "BONUS: Who is my favorite character in all of Kingdom Hearts?"
-answers = "["Roxas"]
+answers = ["Roxas"]
 alternatives = ["Sora", "Riku", "Kairi"]
 hint = "He's the trueeeeee nobody."
 explanation = """
